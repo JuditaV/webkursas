@@ -1,0 +1,23 @@
+body {
+    background-color: oldlace;
+}
+h1, h4 {
+    color: darkblue;
+    font-family: cursive;
+}
+p {
+    color: darkslateblue;
+    font-family: sans-serif;
+}
+.jazz {
+    font-family: fantasy;
+    font-variant-caps: small-caps;
+}
+.bobby {
+    font-family: fantasy;
+    font-style: oblique;
+}
+.effects {
+    font-family: cursive;
+    font-style: italic;
+}
