@@ -1,0 +1,37 @@
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.logo {
+     width: 100%;
+     padding: 40px;
+     text-align: center;
+}
+.firstLine hr {
+    border: 1px solid black;
+    background-color: black;
+}
+ul li {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.navbar {
+       text-align: center;
+}
+a:link {
+  text-decoration: none;
+}
+a:active {
+  text-decoration-color: red;
+}
+.keys {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+p {
+    text-align: center;
+}
