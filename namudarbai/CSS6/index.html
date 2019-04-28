@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS6 | homework</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <form action="#">
+            <fieldset class="firstFieldSet">
+                <legend>Jūsų informacija</legend>
+                    <table>
+                        <tr>
+                            <td>Vardas:</td>
+                            <td> <input type="text" name="vardas"></td>
+                        </tr>
+                         <tr>
+                            <td>Pavardė:</td>
+                            <td> <input type="text" name="pavarde"></td>
+                         </tr>
+                    </table>
+            </fieldset>
+            <fieldset class="secondFieldSet">
+                <legend>Klausimai</legend>
+                <span>Kaip sužinojote apie mus?</span>
+                <select name="source">
+                    <option value="Google">Google</option>
+                    <option value="Draugai">Draugai</option>
+                    <option value="reklama-spaudoje">Reklama spaudoje</option>
+                    <option value="TV">Televizijoje</option>
+                    <option value="kitur">Kitur</option>
+                </select>
+                <br>
+                <br>
+                <span>Ar apsilankysite vėl?</span>
+                <div class="radioOptions">
+                    <input type="radio" name="pasirinkimas">Taip
+                    <input type="radio" name="pasirinkimas">Ne
+                    <input type="radio" name="pasirinkimas">Galbūt
+                </div>
+                <br>
+                <span>Ką manote apie kursą?</span>
+                <br>
+                <textarea name="zinute" rows="8" cols="70"  placeholder="Parašykite savo nuomonę."></textarea>
+                <br>
+                <br>
+                <span>Pažymėkite programavimo kalbas su kuriomis esate susipažinę:</span>
+                <br>
+                <table>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="IT1" value="C#">C#
+                        </td>
+                        <td>
+                            <input type="checkbox" name="IT2" value="JAVA">JAVA
+                        </td>
+                        <td>
+                            <input type="checkbox" name="IT3" value="PHP">PHP
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="IT4" value="HTML">HTML
+                        </td>
+                        <td>
+                            <input type="checkbox" name="IT5" value="CSS">CSS
+                        </td>
+                        <td>
+                            <input type="checkbox" name="IT6" value="JavaScript">JavaScript
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="IT7" value="Python">Python
+                        </td>
+                        <td>
+                            <input type="checkbox" name="IT8" value="Ruby">Ruby
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <input type="submit" value="Siūsti">
+                <input type="reset" value="Išvalyti">
+            </fieldset>
+        </form>
+    </body>
+
+</html>

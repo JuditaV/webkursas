@@ -1,0 +1,43 @@
+fieldset {
+    border: 2px solid green;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.firstFieldSet {
+    background-color: beige;
+}
+.secondFieldSet {
+    background-color: aliceblue
+}
+legend {
+    padding: 3px;
+    border: 1px solid darkgreen;
+    color: darkgreen;
+    border-radius: 18px;
+    text-align: left;
+}
+span {
+    font-family: cursive;
+    color: darkgreen;
+}
+.radioOptions, td {
+    font-family: "Lucida Console", sans-serif;
+    color: darkgreen;
+}
+input[type=radio], input[type=checkbox] {
+    -webkit-transform: scale(1.4);
+    padding-left: 5px;
+}
+select[name = source], textarea[name=zinute], input[type=text] {
+    border-radius: 10px;
+    border: 2px solid darkgreen;
+}
+input[type=submit], input[type=reset] {
+    border: 2px solid green;
+    border-radius: 15px;
+    font-family: "Lucida Console", sans-serif;
+    color: darkgreen;
+    padding: 4px;
+    margin-left: 15px;
+}
