@@ -1,0 +1,309 @@
+#backgroundStyle * {
+    box-sizing: border-box;
+}
+#backgroundStyle {
+    background-image: url("../images/crystals.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+/* header.php css */
+.mainLogo {
+    width: 13%;
+    background-color: darkslateblue;
+    padding: 5px;
+    text-align: center;
+}
+img.logo {
+    width: 50px;
+    border-radius: 15px;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 87%;
+    background-color: darkslateblue;
+    padding: 5px;
+}
+.navbar a {
+    float: left;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    display: block;
+    align-items: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a:hover {
+    background-color: aliceblue;
+    color: darkslateblue;
+    transition-duration: 0.6s;
+}
+.navbar .icon {
+  display: none;
+}
+.navbarRow {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/* frontpage.php css */
+section.header {
+    padding: 40px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.slide {
+    flex: 30%;
+    padding: 20px;
+}
+.main {
+    flex: 70%;
+    padding: 20px;
+}
+img.frontPicture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+section.header, h2.frontpage, p.frontpage {
+    color: whitesmoke;
+	text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3.frontpage {
+    color: whitesmoke;
+    text-align: left;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* index.php  css */
+.galleryGrid {
+    margin: 60px;
+}
+.col {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+}
+.card {
+    flex: 1;
+}
+/* kai nustatyta %, susilygiuoja kainu info, card-action */
+.card-content {
+    height: 30%;
+}
+.card .card-action {
+    position: inherit;
+}
+.card {
+    padding: 15px 0px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: inherit;
+}
+.card-content {
+    padding: 10px;
+}
+h3.gallery {
+	color: oldlace;
+	text-align: center;
+    padding: 60px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    position: inherit;
+}
+img.gallery {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+img.zoom {
+    transition: transform .2s;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+.zoom:hover {
+    transform: scale(1.5);
+}
+.itemBox {
+    text-align: center;
+    padding-bottom: 10%;
+}
+.itemInfo {
+    display: flex;
+    padding: 10px;
+}
+.itemPrice {
+    color: #ee6e73;
+    text-align: center;
+    padding: 15px;
+    float: none;
+    line-height: 10px;
+    font-size: 20px;
+    width: 7%;
+}
+.itemDescription {
+    font-size: 15px;
+    color: aliceblue;
+}
+.itemDescription p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.orderButton {
+    margin-left: 30px;
+    margin-top: 4px ;
+}
+input[type=submit] {
+    background-color: antiquewhite;
+    border: 2px solid darkslateblue;
+    color: crimson;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    padding: 7px 16px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    transition-duration: 0.8s;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: darkslateblue;
+    color: white;
+}
+/* scroll up button */
+#to-top {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 5px;
+    z-index: 99;
+    font-size: 15px;
+    border: 2px solid darkslateblue;
+    outline: none;
+    background-color: aliceblue;
+    color: darkslateblue;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 5px;
+}
+#to-top:hover {
+    background-color: darkslateblue;
+    color: aliceblue;
+}
+/* formos stilius */
+.container {
+	max-width: 400px;
+	width: 100%;
+	margin: 0 auto;
+}
+#contact {
+    background: #F8F8FF;
+	padding: 60px;
+	margin-top: 50px;
+}
+#contact h3 {
+	color: darkslateblue;
+	display: block;
+	font-size: 40px;
+	font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contact h4 {
+    color: darkslateblue;
+	margin: 10px 0;
+	display: block;
+	font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contact p {
+	border: none;
+	margin: 20px 0;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type=text]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid darkslateblue;
+}
+#contact button[type="submit"] {
+	cursor: pointer;
+	width: 100%;
+	border: 2px solid darkslateblue;
+    border-radius: 10px;
+	background-color: aliceblue;
+	color: darkslateblue;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    font-size: 17px;
+	margin:10px 0;
+	padding: 8px 16px;
+    transition-duration: 0.8s;
+}
+#contact button[type="submit"]:hover {
+    background-color: darkslateblue;
+    color: aliceblue;
+}
+/*filledForm.php css */
+.filledForm {
+    margin-top: 50px;;
+    padding: 50px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+/*footer.php css */
+.footer {
+    padding: 5px;
+    text-align: center;
+    background-color: darkslateblue;
+}
+@media only screen and (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+    .mainLogo, .navbar {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) {
+   .navbar a {
+       display: none;
+    }
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+    .navbar {
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
